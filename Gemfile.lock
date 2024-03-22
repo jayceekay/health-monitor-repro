@@ -103,6 +103,8 @@ GEM
     erubi (1.12.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    health-monitor-rails (11.3.0)
+      railties (>= 6.1)
     i18n (1.14.4)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.0.1)
@@ -253,6 +255,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  health-monitor-rails
   importmap-rails
   jbuilder
   pg (~> 1.1)
